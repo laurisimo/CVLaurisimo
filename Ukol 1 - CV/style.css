@@ -1,0 +1,159 @@
+/*Celek -- >*/
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(97, 165, 194);
+  padding: 100px;
+  font-size: large;
+  color: white;
+}
+
+/*Tabulka celek*/
+.Table1 {
+  border-collapse: collapse;
+  background-color: rgb(44, 125, 160);
+  border-color: white;
+  position: absolute;
+  border: solid white;
+  margin-left: 300px;
+  width: 330px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.Table1 th,
+.Table1 td {
+  padding: 12px 15px;
+}
+
+/*Tabulka hlavička*/
+.Table1 thead td {
+  background-color: rgb(1, 79, 134);
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(1, 79, 134);
+  border: solid white;
+  padding: 20px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  max-width: 900px;
+  min-width: 900px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+/*kontakt*/
+.td1 {
+  font-weight: bold;
+}
+
+/*Odkazy*/
+a:link {
+  color: rgb(155, 201, 240);
+}
+
+.Fotka1 {
+  width: 160px;
+  border: solid white;
+  border-color: white;
+  margin-right: 300px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.Table1,
+.Fotka1 {
+  display: inline-block;
+  margin-top: 80px;
+}
+
+.o-mne {
+  background-color: rgb(1, 79, 134);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  border: solid white;
+  max-width: 900px;
+  min-width: 900px;
+  border-radius: 10px;
+  margin-top: 80px;
+  letter-spacing: 2px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.text-ja {
+  padding: 20px;
+  background-color: rgb(44, 125, 160);
+  border: solid white;
+  border-color: rgb(255, 255, 255);
+  line-height: 23px;
+  text-align: justify;
+  max-width: 800px;
+  min-width: 800px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.Table2 {
+  border-collapse: separate;
+  background-color: rgb(44, 125, 160);
+  min-width: 400px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+}
+.Table2 td {
+  padding: 10px;
+}
+
+.d,
+.e {
+  border-bottom: 1px solid black;
+}
+.parent-div {
+  display: flex;
+  justify-content: center;
+}
+
+.a,
+.b,
+.c {
+  background-color: rgb(44, 125, 160);
+  border-color: white;
+  border: solid white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+  margin: 5px;
+  display: inline;
+  box-shadow: 10px 5px 5px black;
+}
+
+.Table3 {
+  border-collapse: separate;
+  background-color: rgb(44, 125, 160);
+  min-width: 600px;
+  border-radius: 10px;
+  padding-top: 10px;
+  line-height: 25px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.Povolani {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.konicky {
+  margin-top: 15px;
+  min-width: 00px;
+}
