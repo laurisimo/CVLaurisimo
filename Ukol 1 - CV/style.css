@@ -11,15 +11,13 @@ body {
 .Table1 {
   border-collapse: collapse;
   background-color: rgb(44, 125, 160);
-  border-color: white;
   position: absolute;
-  border: solid white;
   margin-left: 300px;
   width: 330px;
-  height: 200px;
+  height: 240px;
   border-radius: 10px;
   margin-bottom: 50px;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 10px 5px black;
 }
 
 .Table1 th,
@@ -39,14 +37,13 @@ body {
 h1 {
   text-align: center;
   background-color: rgb(1, 79, 134);
-  border: solid white;
   padding: 20px;
   letter-spacing: 2px;
   word-spacing: 5px;
   max-width: 900px;
   min-width: 900px;
   border-radius: 10px;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 10px 5px black;
 }
 
 /*kontakt*/
@@ -61,11 +58,10 @@ a:link {
 
 .Fotka1 {
   width: 160px;
-  border: solid white;
   border-color: white;
   margin-right: 300px;
   border-radius: 10px;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 10px 5px black;
 }
 
 .Table1,
@@ -81,26 +77,24 @@ a:link {
   text-align: center;
   padding: 10px;
   margin: 20px;
-  border: solid white;
   max-width: 900px;
   min-width: 900px;
   border-radius: 10px;
   margin-top: 80px;
   letter-spacing: 2px;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 10px 5px black;
 }
 
 .text-ja {
   padding: 20px;
   background-color: rgb(44, 125, 160);
-  border: solid white;
   border-color: rgb(255, 255, 255);
   line-height: 23px;
   text-align: justify;
   max-width: 800px;
   min-width: 800px;
   border-radius: 10px;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 10px 5px black;
 }
 
 .Table2 {
@@ -108,16 +102,12 @@ a:link {
   background-color: rgb(44, 125, 160);
   min-width: 400px;
   border-radius: 10px;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 10px 5px black;
 }
 .Table2 td {
   padding: 10px;
 }
 
-.d,
-.e {
-  border-bottom: 1px solid black;
-}
 .parent-div {
   display: flex;
   justify-content: center;
@@ -127,25 +117,28 @@ a:link {
 .b,
 .c {
   background-color: rgb(44, 125, 160);
-  border-color: white;
-  border: solid white;
   border-radius: 10px;
   text-align: center;
   padding: 10px;
   width: 100px;
   margin: 5px;
   display: inline;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 10px 5px black;
 }
 
 .Table3 {
   border-collapse: separate;
   background-color: rgb(44, 125, 160);
-  min-width: 600px;
+  min-width: 700px;
   border-radius: 10px;
-  padding-top: 10px;
-  line-height: 25px;
-  box-shadow: 10px 5px 5px black;
+  padding: 25px;
+  box-shadow: 10px 10px 5px black;
+  text-align: center;
+}
+
+.Vzdelani {
+  padding-bottom: 20px;
+  font-weight: bolder;
 }
 
 .Povolani {
@@ -155,5 +148,5 @@ a:link {
 
 .konicky {
   margin-top: 15px;
-  min-width: 00px;
+  min-width: 200px;
 }
